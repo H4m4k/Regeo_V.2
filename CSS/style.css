@@ -296,14 +296,23 @@ footer.style_transparent {
 	.navigation {
 		justify-content: space-around;
 	}
+	.nav_link {
+		letter-spacing: 0;
+	}
+	.gallery {
+		gap: min(3vw, 1rem);
+	}
 
+	div.gallery > a {
+		flex-basis: 15vw;
+	}
 	ul.flex {
 		gap: 4vw;
 		padding: 0;
 	}
 	main {
 		width: 95%;
-		margin: 2rem auto;
+		margin: 2vw auto;
 	}
 
 	.paragraph {
