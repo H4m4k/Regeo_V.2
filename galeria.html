@@ -1,27 +1,110 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGEO - Adrian Kasprzak</title>
+    <title>REGEO - Galeria</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/font_awesome/CSS/fontawesome.css">
+    <link rel="stylesheet" href="/CSS/font_awesome/CSS/solid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/CSS/lightbox.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Orbitron:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href="index.html"><img src="Img/super_small_regeo.jpg" alt="Regeo Logo"></a> <!-- logo placeholder-->
-        <nav>
-            <ul>
-                <li><a href="about.html">O nas</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-            </ul>
-        </nav>
+    <header class="style_transparent">
+        <div class="flex navigation">
+
+            <a class="logo_link" href="index.html">
+                <img class="logo_img" src="Img/super_small_regeo.jpg" alt="Regeo Logo">
+            </a> <!-- logo placeholder-->
+
+            <nav class="orbitron">
+                <ul class="flex">
+                    <li><a class="nav_link shadow_txt" href="about.html">O nas</a></li>
+                    <li><a class="nav_link shadow_txt" href="contact.html">Kontakt</a></li>
+                    <li><a class="nav_link shadow_txt" href="galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="ridge_Wrap">
+            <div class="dark_ridge"></div>
+            <div class="light_ridge"></div>
+        </div>
     </header>
     <main>
         <!-- Gallery-->
-        <h2>Galeria</h2>
+        <!-- images need to be set in srcset for different sizes of screens -->
+        <h2 class="orbitron shadow_txt center_txt title about_title letter_spacing">Galeria</h2>
 
-       
+        <div class="gallery flex">
+            <a href="/Img/gallery/bg1.JPG" data-lightbox="bg-1"
+                data-title="Budowa kanalizacji deszczowej - osiedle Bzinek - m. Skarżysko-Kamienna 2020 r.">
+                <img src="/Img/gallery/bg1-small.JPG"
+                    alt="Budowa kanalizacji deszczowej - osiedle Bzinek - m. Skarżysko-Kamienna 2020 r.">
+            </a>
+            <a href="/Img/gallery/bg2.JPG" data-lightbox="bg-1"
+                data-title="Budowa stacji paliw PKN Orlen - m. Zagnańsk 2019 r.">
+                <img src="/Img/gallery/bg2-small.JPG" alt="Budowa stacji paliw PKN Orlen - m. Zagnańsk 2019 r.">
+            </a>
+            <a href="/Img/gallery/bg3.JPG" data-lightbox="bg-1"
+                data-title="Budowa krytego lodowiska TELEGRAF - m. Kielce 2017 r. ">
+                <img src="/Img/gallery/bg3-small.JPG" alt="Budowa krytego lodowiska TELEGRAF - m. Kielce 2017 r. ">
+            </a>
+            <a href="/Img/gallery/bg4.JPG" data-lightbox="bg-1"
+                data-title="Przebudowa wiaduktu kolejowego Centralnej Magistrali Kolejowej - m. Secemin-Bichniów 2021 r.">
+                <img src="/Img/gallery/bg4-small.JPG"
+                    alt="Przebudowa wiaduktu kolejowego Centralnej Magistrali Kolejowej - m. Secemin-Bichniów 2021 r.">
+            </a>
+            <a href="/Img/gallery/bg5.JPG" data-lightbox="bg-1"
+                data-title="Przebudowa wiaduktu kolejowego Centralnej Magistrali Kolejowej - m. Secemin-Bichniów 2021 r.">
+                <img src="/Img/gallery/bg5-small.JPG"
+                    alt="Przebudowa wiaduktu kolejowego Centralnej Magistrali Kolejowej - m. Secemin-Bichniów 2021 r.">
+            </a>
+            <a href="/Img/gallery/bg6.JPG" data-lightbox="bg-1"
+                data-title="Budowa Stacji Redukcyjno-Pomiarowej - m. Dąbrowa k.Kielc 2021 r.">
+                <img src="/Img/gallery/bg6-small.JPG"
+                    alt="Budowa Stacji Redukcyjno-Pomiarowej - m. Dąbrowa k.Kielc 2021 r.">
+            </a>
+            <a href="/Img/gallery/bg7.JPG" data-lightbox="bg-1"
+                data-title="Budowa Stacji Redukcyjno-Pomiarowej - m. Dąbrowa k.Kielc 2021 r.">
+                <img src="/Img/gallery/bg7-small.JPG"
+                    alt="Budowa Stacji Redukcyjno-Pomiarowej - m. Dąbrowa k.Kielc 2021 r.">
+            </a>
+            <a href="/Img/gallery/bg8.JPG" data-lightbox="bg-1"
+                data-title="Budowa stacji gazowej Stacji Redukcyjno-Pomiarowej - Dąbrowa k. Kielc  2022 r.">
+                <img src="/Img/gallery/bg8-small.JPG"
+                    alt="Budowa stacji gazowej Stacji Redukcyjno-Pomiarowej - Dąbrowa k. Kielc  2022 r.">
+            </a>
+            <a href="/Img/gallery/bg9.JPG" data-lightbox="bg-1"
+                data-title="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+                <img src="/Img/gallery/bg9-small.JPG"
+                    alt="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+            </a>
+            <a href="/Img/gallery/bg10.JPG" data-lightbox="bg-1"
+                data-title="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+                <img src="/Img/gallery/bg10-small.JPG"
+                    alt="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+            </a>
+            <a href="/Img/gallery/bg11.JPG" data-lightbox="bg-1"
+                data-title="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+                <img src="/Img/gallery/bg11-small.JPG"
+                    alt="Budowa restauracji szybkiej obsługi KFC al. Ks. Popiełuszki Kielce 2022 r.">
+            </a>
+            <a href="/Img/gallery/bg12.JPG" data-lightbox="bg-1"
+                data-title="Pomiary kontrolne na zbiorniku Rejów - m. Skarżysko-Kamienna 2021 r.">
+                <img src="/Img/gallery/bg12-small.JPG"
+                    alt="Pomiary kontrolne na zbiorniku Rejów - m. Skarżysko-Kamienna 2021 r.">
+            </a>
+
+        </div>
         <!--
             home    -x-
             about   -x-
@@ -29,9 +112,39 @@
             gallery -V-
         -->
     </main>
-    <footer>
-        
+    <div class="attrib">
+        Image by <a
+            href="https://www.freepik.com/free-photo/land-plot-with-nature-landscape-location-pin_34709701.htm#query=piece%20land%20images&position=2&from_view=search&track=ais">Freepik</a>
+    </div>
+    <footer class="style_transparent">
+
+        <div class="ridge_Wrap">
+            <div class="light_ridge"></div>
+            <div class="dark_ridge"></div>
+        </div>
+
+        <div class="flex">
+
+            <div class="copyright">
+                <p>&#169; Copyright by R<span class="red">E</span>GEO</p>
+            </div>
+
+            <div class="badge">
+                <a class="" href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Validated!" />
+                </a>
+            </div>
+        </div>
+
     </footer>
-    
+    <script src="/js/lightbox-plus-jquery.js">
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'alwaysShowNavOnTouchDevices': true
+        })
+    </script>
 </body>
+
 </html>
